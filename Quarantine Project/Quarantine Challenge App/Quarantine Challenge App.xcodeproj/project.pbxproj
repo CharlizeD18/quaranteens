@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4ACC806244EAD27003FEE6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ACC805244EAD27003FEE6C /* AppDelegate.swift */; };
+		A4ACC808244EAD27003FEE6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ACC807244EAD27003FEE6C /* ViewController.swift */; };
+		A4ACC80B244EAD27003FEE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4ACC809244EAD27003FEE6C /* Main.storyboard */; };
+		A4ACC80D244EAD2A003FEE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4ACC80C244EAD2A003FEE6C /* Assets.xcassets */; };
+		A4ACC810244EAD2A003FEE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4ACC80E244EAD2A003FEE6C /* LaunchScreen.storyboard */; };
+		A4ACC81B244EAD2A003FEE6C /* Quarantine_Challenge_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ACC81A244EAD2A003FEE6C /* Quarantine_Challenge_AppTests.swift */; };
+		A4ACC826244EAD2A003FEE6C /* Quarantine_Challenge_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ACC825244EAD2A003FEE6C /* Quarantine_Challenge_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4ACC817244EAD2A003FEE6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4ACC7FA244EAD27003FEE6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4ACC801244EAD27003FEE6C;
+			remoteInfo = "Quarantine Challenge App";
+		};
+		A4ACC822244EAD2A003FEE6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4ACC7FA244EAD27003FEE6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4ACC801244EAD27003FEE6C;
+			remoteInfo = "Quarantine Challenge App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4ACC802244EAD27003FEE6C /* Quarantine Challenge App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quarantine Challenge App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4ACC805244EAD27003FEE6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4ACC807244EAD27003FEE6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4ACC80A244EAD27003FEE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4ACC80C244EAD2A003FEE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4ACC80F244EAD2A003FEE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4ACC811244EAD2A003FEE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4ACC816244EAD2A003FEE6C /* Quarantine Challenge AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quarantine Challenge AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4ACC81A244EAD2A003FEE6C /* Quarantine_Challenge_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quarantine_Challenge_AppTests.swift; sourceTree = "<group>"; };
+		A4ACC81C244EAD2A003FEE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4ACC821244EAD2A003FEE6C /* Quarantine Challenge AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quarantine Challenge AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4ACC825244EAD2A003FEE6C /* Quarantine_Challenge_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quarantine_Challenge_AppUITests.swift; sourceTree = "<group>"; };
+		A4ACC827244EAD2A003FEE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4ACC7FF244EAD27003FEE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4ACC813244EAD2A003FEE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4ACC81E244EAD2A003FEE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4ACC7F9244EAD27003FEE6C = {
+			isa = PBXGroup;
+			children = (
+				A4ACC804244EAD27003FEE6C /* Quarantine Challenge App */,
+				A4ACC819244EAD2A003FEE6C /* Quarantine Challenge AppTests */,
+				A4ACC824244EAD2A003FEE6C /* Quarantine Challenge AppUITests */,
+				A4ACC803244EAD27003FEE6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4ACC803244EAD27003FEE6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4ACC802244EAD27003FEE6C /* Quarantine Challenge App.app */,
+				A4ACC816244EAD2A003FEE6C /* Quarantine Challenge AppTests.xctest */,
+				A4ACC821244EAD2A003FEE6C /* Quarantine Challenge AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4ACC804244EAD27003FEE6C /* Quarantine Challenge App */ = {
+			isa = PBXGroup;
+			children = (
+				A4ACC805244EAD27003FEE6C /* AppDelegate.swift */,
+				A4ACC807244EAD27003FEE6C /* ViewController.swift */,
+				A4ACC809244EAD27003FEE6C /* Main.storyboard */,
+				A4ACC80C244EAD2A003FEE6C /* Assets.xcassets */,
+				A4ACC80E244EAD2A003FEE6C /* LaunchScreen.storyboard */,
+				A4ACC811244EAD2A003FEE6C /* Info.plist */,
+			);
+			path = "Quarantine Challenge App";
+			sourceTree = "<group>";
+		};
+		A4ACC819244EAD2A003FEE6C /* Quarantine Challenge AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4ACC81A244EAD2A003FEE6C /* Quarantine_Challenge_AppTests.swift */,
+				A4ACC81C244EAD2A003FEE6C /* Info.plist */,
+			);
+			path = "Quarantine Challenge AppTests";
+			sourceTree = "<group>";
+		};
+		A4ACC824244EAD2A003FEE6C /* Quarantine Challenge AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4ACC825244EAD2A003FEE6C /* Quarantine_Challenge_AppUITests.swift */,
+				A4ACC827244EAD2A003FEE6C /* Info.plist */,
+			);
+			path = "Quarantine Challenge AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4ACC801244EAD27003FEE6C /* Quarantine Challenge App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4ACC82A244EAD2A003FEE6C /* Build configuration list for PBXNativeTarget "Quarantine Challenge App" */;
+			buildPhases = (
+				A4ACC7FE244EAD27003FEE6C /* Sources */,
+				A4ACC7FF244EAD27003FEE6C /* Frameworks */,
+				A4ACC800244EAD27003FEE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quarantine Challenge App";
+			productName = "Quarantine Challenge App";
+			productReference = A4ACC802244EAD27003FEE6C /* Quarantine Challenge App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4ACC815244EAD2A003FEE6C /* Quarantine Challenge AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4ACC82D244EAD2A003FEE6C /* Build configuration list for PBXNativeTarget "Quarantine Challenge AppTests" */;
+			buildPhases = (
+				A4ACC812244EAD2A003FEE6C /* Sources */,
+				A4ACC813244EAD2A003FEE6C /* Frameworks */,
+				A4ACC814244EAD2A003FEE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4ACC818244EAD2A003FEE6C /* PBXTargetDependency */,
+			);
+			name = "Quarantine Challenge AppTests";
+			productName = "Quarantine Challenge AppTests";
+			productReference = A4ACC816244EAD2A003FEE6C /* Quarantine Challenge AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4ACC820244EAD2A003FEE6C /* Quarantine Challenge AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4ACC830244EAD2A003FEE6C /* Build configuration list for PBXNativeTarget "Quarantine Challenge AppUITests" */;
+			buildPhases = (
+				A4ACC81D244EAD2A003FEE6C /* Sources */,
+				A4ACC81E244EAD2A003FEE6C /* Frameworks */,
+				A4ACC81F244EAD2A003FEE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4ACC823244EAD2A003FEE6C /* PBXTargetDependency */,
+			);
+			name = "Quarantine Challenge AppUITests";
+			productName = "Quarantine Challenge AppUITests";
+			productReference = A4ACC821244EAD2A003FEE6C /* Quarantine Challenge AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4ACC7FA244EAD27003FEE6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Rashmi Sharma";
+				TargetAttributes = {
+					A4ACC801244EAD27003FEE6C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A4ACC815244EAD2A003FEE6C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A4ACC801244EAD27003FEE6C;
+					};
+					A4ACC820244EAD2A003FEE6C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A4ACC801244EAD27003FEE6C;
+					};
+				};
+			};
+			buildConfigurationList = A4ACC7FD244EAD27003FEE6C /* Build configuration list for PBXProject "Quarantine Challenge App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4ACC7F9244EAD27003FEE6C;
+			productRefGroup = A4ACC803244EAD27003FEE6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4ACC801244EAD27003FEE6C /* Quarantine Challenge App */,
+				A4ACC815244EAD2A003FEE6C /* Quarantine Challenge AppTests */,
+				A4ACC820244EAD2A003FEE6C /* Quarantine Challenge AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4ACC800244EAD27003FEE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4ACC810244EAD2A003FEE6C /* LaunchScreen.storyboard in Resources */,
+				A4ACC80D244EAD2A003FEE6C /* Assets.xcassets in Resources */,
+				A4ACC80B244EAD27003FEE6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4ACC814244EAD2A003FEE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4ACC81F244EAD2A003FEE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4ACC7FE244EAD27003FEE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4ACC808244EAD27003FEE6C /* ViewController.swift in Sources */,
+				A4ACC806244EAD27003FEE6C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4ACC812244EAD2A003FEE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4ACC81B244EAD2A003FEE6C /* Quarantine_Challenge_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4ACC81D244EAD2A003FEE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4ACC826244EAD2A003FEE6C /* Quarantine_Challenge_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4ACC818244EAD2A003FEE6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4ACC801244EAD27003FEE6C /* Quarantine Challenge App */;
+			targetProxy = A4ACC817244EAD2A003FEE6C /* PBXContainerItemProxy */;
+		};
+		A4ACC823244EAD2A003FEE6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4ACC801244EAD27003FEE6C /* Quarantine Challenge App */;
+			targetProxy = A4ACC822244EAD2A003FEE6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4ACC809244EAD27003FEE6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4ACC80A244EAD27003FEE6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4ACC80E244EAD2A003FEE6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4ACC80F244EAD2A003FEE6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4ACC828244EAD2A003FEE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4ACC829244EAD2A003FEE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4ACC82B244EAD2A003FEE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quarantine Challenge App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rashmi.Quarantine-Challenge-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4ACC82C244EAD2A003FEE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quarantine Challenge App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rashmi.Quarantine-Challenge-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4ACC82E244EAD2A003FEE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quarantine Challenge AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rashmi.Quarantine-Challenge-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quarantine Challenge App.app/Quarantine Challenge App";
+			};
+			name = Debug;
+		};
+		A4ACC82F244EAD2A003FEE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quarantine Challenge AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rashmi.Quarantine-Challenge-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quarantine Challenge App.app/Quarantine Challenge App";
+			};
+			name = Release;
+		};
+		A4ACC831244EAD2A003FEE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quarantine Challenge AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rashmi.Quarantine-Challenge-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quarantine Challenge App";
+			};
+			name = Debug;
+		};
+		A4ACC832244EAD2A003FEE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Quarantine Challenge AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rashmi.Quarantine-Challenge-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quarantine Challenge App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4ACC7FD244EAD27003FEE6C /* Build configuration list for PBXProject "Quarantine Challenge App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4ACC828244EAD2A003FEE6C /* Debug */,
+				A4ACC829244EAD2A003FEE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4ACC82A244EAD2A003FEE6C /* Build configuration list for PBXNativeTarget "Quarantine Challenge App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4ACC82B244EAD2A003FEE6C /* Debug */,
+				A4ACC82C244EAD2A003FEE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4ACC82D244EAD2A003FEE6C /* Build configuration list for PBXNativeTarget "Quarantine Challenge AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4ACC82E244EAD2A003FEE6C /* Debug */,
+				A4ACC82F244EAD2A003FEE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4ACC830244EAD2A003FEE6C /* Build configuration list for PBXNativeTarget "Quarantine Challenge AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4ACC831244EAD2A003FEE6C /* Debug */,
+				A4ACC832244EAD2A003FEE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4ACC7FA244EAD27003FEE6C /* Project object */;
+}
