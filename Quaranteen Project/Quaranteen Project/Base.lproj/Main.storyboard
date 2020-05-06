@@ -24,11 +24,6 @@
                                 <rect key="frame" x="167" y="382" width="80" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NX-DF-Cyi">
-                                <rect key="frame" x="83" y="507" width="249" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="SignupwithGoogleButton"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ajN-Mw-vX1"/>
@@ -171,7 +166,6 @@
     <resources>
         <image name="APP" width="58" height="22"/>
         <image name="Arrow 1" width="24" height="16"/>
-        <image name="SignupwithGoogleButton" width="247" height="48"/>
         <image name="homeIcon" width="37" height="35"/>
         <image name="profileIcon" width="28" height="28"/>
         <image name="progressIcon" width="34" height="34"/>

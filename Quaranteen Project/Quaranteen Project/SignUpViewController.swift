@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import GoogleSignIn
 
 class SignUpViewController: UIViewController {
+    @IBOutlet weak var signInButton: GIDSignInButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        GIDSignIn.sharedInstance()?.presentingViewController = self
+        
+        //Automatically sign in the user.
+        GIDSignIn.sharedInstance()?.restorePreviousSignIn()
+        
         // Do any additional setup after loading the view.
     }
     
