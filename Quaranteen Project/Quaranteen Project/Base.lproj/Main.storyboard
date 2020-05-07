@@ -12,7 +12,7 @@
         <scene sceneID="rxG-qY-gmJ">
             <objects>
                 <viewController id="odN-3O-bTx" customClass="SignUpViewController" customModule="Quaranteen_Project" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="h39-fW-z1C">
+                    <view key="view" contentMode="scaleToFill" id="h39-fW-z1C" customClass="GIDSignInButton">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -24,10 +24,18 @@
                                 <rect key="frame" x="167" y="382" width="80" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJs-mw-h60">
+                                <rect key="frame" x="153" y="461" width="109" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="signInButton"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ajN-Mw-vX1"/>
                     </view>
+                    <connections>
+                        <outlet property="signInButton" destination="h39-fW-z1C" id="7hR-oZ-XE1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wrA-px-Rba" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
